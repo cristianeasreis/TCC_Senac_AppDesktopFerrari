@@ -1,0 +1,41 @@
+﻿<Window x:Class="FerrariEmp.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FerrariEmp"
+        mc:Ignorable="d"
+        Title="Menu" Height="492" Width="503.968" WindowStartupLocation="CenterScreen" ContentRendered="Window_ContentRendered">
+    <Window.Background>
+        <ImageBrush ImageSource="Imagens/fundo novo novo.png"/>
+    </Window.Background>
+    <Grid Margin="0,0,2,-2" >
+        <Button x:Name="btnUsuario" HorizontalAlignment="Left" Height="121" Margin="54,83,0,0" VerticalAlignment="Top" Width="176" Click="BtnUsuario_Click" Foreground="#FF614939" BorderBrush="#FF060606">
+            <Button.Background>
+                <ImageBrush ImageSource="Imagens/usuario 3.png" Opacity="0.9"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Usuario" HorizontalAlignment="Left" Height="33" Margin="108,204,0,0" VerticalAlignment="Top" Width="100" Foreground="#DDFB0808" FontWeight="SemiBold"/>
+        <Label Content="Cliente" HorizontalAlignment="Left" Height="33" Margin="339,204,0,0" VerticalAlignment="Top" Width="100" Foreground="#DDFB0808" FontWeight="SemiBold"/>
+        <Button x:Name="btnCliente" Content="" HorizontalAlignment="Left" Height="121" Margin="274,83,0,0" VerticalAlignment="Top" Width="176" Click="BtnCliente_Click" BorderBrush="Black" Foreground="#FF614939">
+            <Button.Background>
+                <ImageBrush ImageSource="Imagens/cliente.png" Opacity="0.9"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnEstoque" Content="" HorizontalAlignment="Left" Height="121" Margin="54,273,0,0" VerticalAlignment="Top" Width="176" Foreground="#FF614939" BorderBrush="#FF0E0E0E" Click="BtnEstoque_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Imagens/estoque.png" Opacity="0.9"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Estoque" HorizontalAlignment="Left" Height="33" Margin="108,401,0,0" VerticalAlignment="Top" Width="100" Foreground="#DDFB0808" FontWeight="SemiBold"/>
+        <Button x:Name="btnAgendamento" Content="" HorizontalAlignment="Left" Height="121" Margin="274,273,0,0" VerticalAlignment="Top" Width="176" Foreground="#FF614939" BorderBrush="#FF0A0101" Click="BtnAgendamento_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Imagens/Sem Título-1.png" Opacity="0.9"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Agendamento" HorizontalAlignment="Left" Height="33" Margin="320,401,0,0" VerticalAlignment="Top" Width="100" Foreground="#DDFB0808" FontWeight="SemiBold"/>
+        <Label Content="Usuario Logado:" HorizontalAlignment="Left" Margin="44,29,0,0" VerticalAlignment="Top" Foreground="#DDFB0606"/>
+        <Label x:Name="lbUsuario" Content="Usuario" HorizontalAlignment="Left" Margin="141,29,0,0" VerticalAlignment="Top" Foreground="#DDFBFBFB"/>
+
+    </Grid>
+</Window>

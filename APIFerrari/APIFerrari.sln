@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIFerrari", "APIFerrari\APIFerrari.csproj", "{E3896026-0859-42F4-8CD5-35B718D35545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FerrariEmp.lib", "..\FerrariEmp\FerrariEmp.lib\FerrariEmp.lib.csproj", "{BA544F11-9891-4C9A-90D2-01D6A8148CF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3896026-0859-42F4-8CD5-35B718D35545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3896026-0859-42F4-8CD5-35B718D35545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3896026-0859-42F4-8CD5-35B718D35545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3896026-0859-42F4-8CD5-35B718D35545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA544F11-9891-4C9A-90D2-01D6A8148CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA544F11-9891-4C9A-90D2-01D6A8148CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA544F11-9891-4C9A-90D2-01D6A8148CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA544F11-9891-4C9A-90D2-01D6A8148CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86D2A9FB-C230-4183-9206-3C3DB6C71BA6}
+	EndGlobalSection
+EndGlobal

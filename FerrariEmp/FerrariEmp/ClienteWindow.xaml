@@ -1,0 +1,30 @@
+﻿<Window x:Class="FerrariEmp.ClienteWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FerrariEmp"
+        mc:Ignorable="d"
+        Title="ClienteWindow" Height="573.42" Width="1058.664" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="Imagens/fundo novo novo.png" Opacity="0.8"/>
+    </Window.Background>
+
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="0,0,2,1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txtPesquisar" HorizontalAlignment="Left" Height="37" Margin="67,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="645" BorderBrush="Black" Foreground="White" MaxLength="100" TextChanged="TxtPesquisar_TextChanged"/>
+        <Button x:Name="btnPesquisar" Content="" HorizontalAlignment="Left" Margin="739,32,0,0" VerticalAlignment="Top" Width="97" Height="63" Click="BtnPesquisar_Click" Foreground="#FF614939" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="Imagens/magnifier-1724298_960_720.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnNovo" Content="" HorizontalAlignment="Left" Margin="869,32,0,0" VerticalAlignment="Top" Width="113" Height="63" Click="BtnNovo_Click" BorderBrush="{x:Null}" Foreground="#FF614939">
+            <Button.Background>
+                <ImageBrush ImageSource="Imagens/image.png"/>
+            </Button.Background>
+        </Button>
+        <DataGrid x:Name="list" HorizontalAlignment="Left" Height="402" Margin="67,111,0,0" VerticalAlignment="Top" Width="915" PreviewKeyDown="List_PreviewKeyDown" MouseDoubleClick="List_MouseDoubleClick" CanUserAddRows="False" BorderBrush="Black" Foreground="Black" VerticalGridLinesBrush="Red" Background="White" />
+    </Grid>
+</Window>
